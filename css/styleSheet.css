@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.25%;
+}
+
+header{
+    height: 155px;
+    background-image: url(/img/ic.png);
+}
+
+header h1{
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h2{
+    margin-left: 30px;
+    font-size: 3rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header nav{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+
+
+header li{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+    color: grey;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 10px;
+    font-weight: 600;
+    background-color: black;
+    border: 1px white solid;
+    border-radius: 10px;
+
+}
+
+mark{
+    background-color: grey;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+}
+
+header li:hover:not(.mark){
+    background-color: grey;
+}
+
+
+main {
+    display: inline block;
+    padding: 20px;
+    vertical-align: top;
+}
+
+#html5{
+    margin-right: 20px;
+    border: 2px red solid;
+    display: inline-block;
+    width: 30%;
+}
+
+#html5 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: white;
+    display: inline;
+    padding: 2px;
+}
+
+#html5 p{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#html5 a{
+    float: right;
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 4px;
+}
+
+#css3 {
+    vertical-align: top;
+    margin-right: 20px;
+    border: 2px green solid;
+    display: inline-block;
+    width: 30%;
+}
+
+#css3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: white;
+    display: inline;
+    padding: 2px;
+}
+
+#css3 p{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#css3 a{
+    float: right;
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 4px;
+}
+
+#about {
+    vertical-align: top;
+    margin-right: 20px;
+    border: 2px blue solid;
+    display: inline-block;
+    width: 30%;
+}
+
+#about h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    color: white;
+    display: inline;
+    padding: 2px;
+}
+
+#about p{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#about a{
+    float: right;
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 4px;
+}
+
+
+footer{
+    height: 70px;
+    background-color: black;
+    
+}
+
+footer address {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+
+}
+
+footer nav{
+    padding: 5px;
+    display: inline-block;
+    float: right;
+}
+
+
+footer nav h2{
+    color: white;
+    font-family: arial;
+    font-size: 1.5rem;
+}
+
+
+footer li{
+    color: white;
+}
+
+footer li a, footer li .mark{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: grey;
+}
+
+
+main p{
+    font-size: larger;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+main{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bildjohan{
+    display: inline-block;
+}
+
+#bildjohan img{
+    display: inline-block;
+    width: 20rem;
+}
+
+#ommig{
+    display: inline-block;
+    vertical-align: top;
+    width: 40rem;
+}
+
+#ommig p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+
+#fakta{
+    padding: 1rem;
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    display: inline-block;
+    vertical-align: top;
+    width: 35rem;
+}
+
+#fakta p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+table {
+    font-size: 2rem;
+    width: 30rem;
+}
+
+.fet{
+    font-weight: 1000
+}
+
+tr:nth-child(even){
+    background-color: rgb(187, 187, 187);
+}
+
+  th, td {
+    border: 1px solid black;
+    padding: 2px;
+    text-align: left;
+}
