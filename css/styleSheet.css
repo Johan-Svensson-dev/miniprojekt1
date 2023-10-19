@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+
 html{
-    font-size: 62.25%;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -52,9 +58,7 @@ header li{
 
 }
 
-mark{
-    background-color: grey;
-}
+
 
 header li a {
     text-decoration: none;
@@ -70,6 +74,8 @@ main {
     display: inline block;
     padding: 20px;
     vertical-align: top;
+    font-size: 1.6rem;
+    font-weight: 100;
 }
 
 #html5{
@@ -90,7 +96,6 @@ main {
 #html5 p{
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
 }
 
 #html5 a{
@@ -99,7 +104,6 @@ main {
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
     padding: 4px;
 }
 
@@ -122,7 +126,6 @@ main {
 #css3 p{
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
 }
 
 #css3 a{
@@ -131,7 +134,6 @@ main {
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
     padding: 4px;
 }
 
@@ -154,7 +156,6 @@ main {
 #about p{
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
 }
 
 #about a{
@@ -163,27 +164,26 @@ main {
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
     padding: 4px;
 }
 
 
 footer{
-    height: 70px;
-    background-color: black;
+    height: 11rem;
+    background-color: black;    
     
 }
 
 footer address {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    padding: 5px;
+    padding: 10px;
     display: inline-block;
-
+    font-size: 1.6rem;
 }
 
 footer nav{
-    padding: 5px;
+    padding: 10px;
     display: inline-block;
     float: right;
 }
@@ -192,27 +192,34 @@ footer nav{
 footer nav h2{
     color: white;
     font-family: arial;
-    font-size: 1.5rem;
 }
 
 
-footer li{
+footer li a{
     color: white;
+    text-decoration: none;
 }
 
-footer li a, footer li .mark{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+footer li a:hover{
+    color: red;
+}
+
+
+footer nav ul li a{
     text-decoration: none;
     color: grey;
 }
 
+footer .mark{
+    color: white;
+    list-style: disc;
+}
+
+
 
 main p{
-    font-size: larger;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
 }
 
 main{
@@ -258,20 +265,28 @@ main{
 }
 
 table {
-    font-size: 2rem;
-    width: 30rem;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 98%;
+    margin-left: 1%;
+    font-size: 1.4rem;
 }
 
-.fet{
-    font-weight: 1000
+table th{
+    background-color: white;
 }
 
-tr:nth-child(even){
+tr:nth-child(odd){
     background-color: rgb(187, 187, 187);
 }
 
   th, td {
-    border: 1px solid black;
-    padding: 2px;
+    border: 0.1rem solid #ddd;
+    padding: .8rem;
     text-align: left;
+}
+
+table th{
+    padding: 1.2rem 0.8rem;
+    background-color: white;
 }
